@@ -1,3 +1,7 @@
-## Node.js 之 Http Server
-
-## Node.js 之 WebSocket
+### WebSocket 特性
+1. 建立在 TCP 协议之上
+2. 握手阶段采用 HTTP 协议
+3. 数据格式比较轻量，性能开销小，通信高效
+4. 可以发送文本或者二进制文件
+5. **没有同源限制**
+6. 协议标识符：`ws`或者`wss`
